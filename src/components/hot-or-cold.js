@@ -14,7 +14,6 @@ export default class HotOrCold extends React.Component {
     }
   
     handleSubmit(guess) {
-      console.log(guess);
       const guessHistory = this.state.guessHistory;
       guessHistory.push(guess);
       this.setState({  
@@ -34,10 +33,6 @@ export default class HotOrCold extends React.Component {
     }
   
     render() { 
-      console.log('the current state =', this.state)
-      console.log('the guess history =', this.state.guessHistory);
-      
-      
       return(
         <div className="content-wrap">
           <h1>{this.props.title}</h1>
