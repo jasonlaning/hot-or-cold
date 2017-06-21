@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+.game-box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+p {
+  font-style: italic;
+}
