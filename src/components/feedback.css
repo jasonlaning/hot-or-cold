@@ -1,0 +1,21 @@
+.feedback-box {
+  line-height: 40px;
+  height: 40px;
+  color: white;
+}
+
+.hot {
+  background-color: red;
+}
+
+.cold {
+  background-color: blue;
+}
+
+.correct {
+  background-color: green;
+}
+
+.guessed-already {
+  background-color: gray;
+}
