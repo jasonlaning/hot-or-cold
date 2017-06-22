@@ -14,7 +14,7 @@ describe('<GuessHistory />', () => {
 	it('Renders the guess history', () => {
 		const guessMessage = 'Numbers guessed:  3, 23, 11, 66, 88';
 		const wrapper = shallow(<GuessHistory guessHistory={guessHistory} />);
-		expect (wrapper.text()).toEqual(guessMessage);
+		expect(wrapper.text()).toEqual(guessMessage);
 
 	})
 

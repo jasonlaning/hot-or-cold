@@ -14,7 +14,7 @@ describe('<HotOrCold />', () => {
 	it('Renders the title', () => {
 		const title='The Title';
 		const wrapper = shallow(<HotOrCold title={title} />);
-		expect (wrapper.contains(title)).toEqual(true);
+		expect(wrapper.contains(title)).toEqual(true);
 
 	})
 
